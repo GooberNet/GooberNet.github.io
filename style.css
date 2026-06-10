@@ -1,9 +1,36 @@
 body {
-  background-color: powderblue;
+    margin: 0;
+    background: #99ccff;
+    font-family: Verdana, Arial, sans-serif;
 }
-h1 {
-  color: blue;
+
+#container {
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
 }
-p {
-  color: red;
+
+.sidebar {
+    width: 200px;
+    background: #ffffff;
+    border: 2px solid #000080;
+    padding: 10px;
+}
+
+#content {
+    flex: 1;
+    background: #ffffff;
+    border: 2px solid #000080;
+    padding: 20px;
+}
+
+.post {
+    border-bottom: 1px dashed #666;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    color: #000080;
 }
