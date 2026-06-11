@@ -1,3 +1,8 @@
+header
+{
+     background-color: #000080;
+}
+
 body {
     margin: 0;
     background: #99ccff;
@@ -39,3 +44,4 @@ footer
 {
     background-color: #000080;
 }
+
