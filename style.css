@@ -29,9 +29,36 @@ body {
 .post {
     border-bottom: 1px dashed #666;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    width: 750px;
+
+    display: 
+    justify-content: center;
+    
+    
+}
+
+.headerbar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #ffffff
+
+
+}
+
+.mainColumn {
+
 }
 
 h1, h2 {
     color: #000080;
+}
+img{
+    width: auto;
+    height: 200px;
 }
